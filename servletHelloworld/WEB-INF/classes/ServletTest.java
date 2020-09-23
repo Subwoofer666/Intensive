@@ -5,13 +5,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet
 public class ServletTest extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
-
-    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.getWriter().write("Hello World!");
+        response.getWriter().write("Hello world!");
     }
 }
